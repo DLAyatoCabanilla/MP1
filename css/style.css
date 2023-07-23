@@ -75,14 +75,21 @@ a:active
 
 .section1 {
     height: calc(100vh - 100px);
-    background-image: url('./images/hotdog.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
 }
+.section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+}
+
 .section1 .content {
     width: 90%;
     height: 90%;
@@ -98,6 +105,9 @@ a:active
     animation: container .3s linear forwards;
     background-color: #2C333380;
     justify-content: center;
+    position: absolute;
+    inset: 5%;
+
 }
 .section1 .content h1 {
     font-family: 'Work Sans',sans-serif;
