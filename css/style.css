@@ -75,7 +75,7 @@ a:active
 
 .section1 {
     height: calc(100vh - 100px);
-    background-image: url('images/hotdog.png');
+    background-image: url('./images/hotdog.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
