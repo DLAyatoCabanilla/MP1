@@ -371,7 +371,7 @@ footer .div4 div {
 }
 
 
-@media only screen and (max-width: 690px) 
+@media only screen and (max-width: 699px) 
 {
     
     .nav-bar {
@@ -409,5 +409,11 @@ footer .div4 div {
     }
     .card-container .card1 {
         height: max-content;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    body {
+        min-width: 429px;
     }
 }
