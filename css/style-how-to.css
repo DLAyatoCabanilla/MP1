@@ -222,6 +222,10 @@ font-size: 20git px;
 }
 hr {
     width: 100%;
+    color: #fff;
+    background-color: #fff;
+    margin: 10pxgit ;
+    height: 3px;
 }
 .section-container {
     border-radius: 20px;
@@ -361,7 +365,14 @@ footer .div4 div {
         letter-spacing: 1px;
     }
 }
-
+@media only screen and (max-width: 400px) {
+    .section1 .btns button{
+        font-size: 12px;
+    }
+    .section1 .btns div p{
+        font-size: 12px;
+    }
+}
 body {
     background-image: radial-gradient(circle at center, #1b263b 0, #415a77, #778da9 100%);
 }
