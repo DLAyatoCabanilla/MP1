@@ -101,11 +101,15 @@ header {
     column-gap: 100px;
 }
 .section1 {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px;
+}
+.section1 h1 {
+font-size: 20git px;
 }
 .section1 .box-1 {
     display: flex;
@@ -121,6 +125,7 @@ header {
 }
 .section1 .box-1 div p {
     font-family: 'Poppins',sans-serif;
+    margin: 0;
 }
 .section1 .box-1 .rating p {
     display: flex;
@@ -140,15 +145,21 @@ header {
     column-gap: 10px;
     align-items: center;
 }
+.section1 .creator p {
+    margin: 0;
+}
 
 .section1 .btns {
     display:flex;
+    align-items: center;
 }
 .section1 .btns button  {
     display: flex;
     align-items: center;
     column-gap: 5px;
     padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 .section1 .btns div {
     display: flex;
@@ -158,6 +169,10 @@ header {
     padding: 5px 15px;
     background-color: #f4f4f4;
     border: none;
+    justify-content: center;
+}
+.section1 .btns div p {
+    margin: 0;
 }
 .section1 .image {
     border: 1px solid black;
@@ -263,7 +278,10 @@ footer .div4 div {
     padding: 10px;
 }
 
-
+.section1 {
+    width: 100%;
+    max-width: 700px;
+}
 @media only screen and (max-width: 1000px) {
     .parent {
         flex-wrap: wrap;

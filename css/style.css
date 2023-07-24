@@ -371,7 +371,9 @@ footer .div4 div {
 }
 
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 690px) 
+{
+    
     .nav-bar {
         padding-right:  25px;
     }
@@ -404,5 +406,8 @@ footer .div4 div {
         font-size: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         letter-spacing: 1px;
+    }
+    .card-container .card1 {
+        height: max-content;
     }
 }
