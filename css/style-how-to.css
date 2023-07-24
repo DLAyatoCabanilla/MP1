@@ -110,6 +110,8 @@ header {
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px;
+    background-color: #fff;
+
     transform: scale(.9);
 }
 .section1 h1 {
@@ -216,13 +218,19 @@ font-size: 20git px;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #fff;
 }
 hr {
     width: 100%;
 }
+.section-container {
+    border-radius: 20px;
+    overflow: hidden;
+}
 .section-container .overflow {
     overflow: scroll;
     max-height: 450px;
+    background-color: #fff;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -354,3 +362,6 @@ footer .div4 div {
     }
 }
 
+body {
+    background-image: radial-gradient(circle at center, #1b263b 0, #415a77, #778da9 100%);
+}
